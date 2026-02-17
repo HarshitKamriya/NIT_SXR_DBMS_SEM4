@@ -21,6 +21,11 @@ VALUES
 (3,"Sanjay",19,"btech - CHE"),
 (4,"Sanjeev",19,"btech - CSE");
 
+-- checking use of defalut key word
+INSERT INTO student
+(stuedntid,studentname,age)
+VALUES
+(6,"harshit",19)
 
 -- Updating the table
 UPDATE student
