@@ -1,0 +1,9 @@
+Todays task:
+        1 . apply create opertation to insert new records in previously created table
+        2 . apply retrive operation to fetch data from the table
+        3 . apply update operation to modify existing data in a table
+        4 . apply delete operation to remove records from a table
+        5.  delete the already created table studnet
+        6 . now create table course with field cid and cname and insert data into that
+        7.  now recreate student table with foregin key as cid from course
+        8 . now using select and join  fetch the data 
