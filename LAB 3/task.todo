@@ -1,0 +1,13 @@
+1 . to the given table (shared) t1,t2,t3,t4,t5,t6 apply the operations of create , read upadate and delete
+
+t1 - Departments
+t2 - Employees
+t3 - Students
+t4 - Courses
+t5 - Enrollments
+t6  - Medical_Records
+
+
+2. populate table t3 with atleast 10 students
+    1. ensure that several entities share identivcal city names 
+    2. construct a query using distinct keyword to isolate city name 
