@@ -67,3 +67,13 @@ SELECT * FROM enrollement;
 SELECT s_id 
 FROM enrollement
 WHERE payment>9000;
+
+
+-- use join to display student name , course name and date of enrollement 
+SELECT s.s_name,c.c_name,e.e_date
+FROM enrollement e
+JOIN student s ON e.s_id = s.s_id
+JOIN course c ON e.c_id = c.c_id;
+
+-- displaying total sum using aggregrate function
+SELECT SUM(payment) FROM enrollement; 
