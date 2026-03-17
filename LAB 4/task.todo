@@ -1,0 +1,7 @@
+1. create table student with (student_id,student_name,phoneno) ->parent table
+2. create table course with (course_id,course_name,fee) -> parent table
+3. create child table enrollement with (student_id(FK),course_id(FK),date,payment) -> child key
+4. alter and update records of the table
+5. Retrive studnet whose payment is >9000
+6. Display studnet name , course name and enrollement date (use Join)
+7. calculate total revenue from the enrollement table.(use Aggregate Function)
