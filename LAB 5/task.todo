@@ -1,0 +1,29 @@
+Q1 in our Data base Enrollement is a child table that points to student and course(to parent table)
+    how can we safely delete course 101.
+     without triggring a constant error? -> manually delete 
+
+
+     1. delete from child table
+     2. delete from parent table
+     3. then check (select all )
+
+
+Q2 In our database Enrollement is a child table that points to student and course (parents tables)
+    if we want the system to automatically wipe out all enrollements when a course is deleted
+    which constant should we use ?
+
+    -> Delete from course where cid.
+
+    (1. on delete no action,2. on delete set null ,3. on delete cascade)
+    
+
+Q3 In our database Enrollement is a child table that points to student and course (parents tables) 
+    if a student is deleted , how do we keep enrollement record but mark the student id as empty?
+    
+Q4 In our database Enrollement is a child table how many student are there.
+    (select count (c == id))
+    / what is the total of all courese credits/ what is average grade in course one one
+    /what is heighest grade record  / who is youngest student
+
+
+
