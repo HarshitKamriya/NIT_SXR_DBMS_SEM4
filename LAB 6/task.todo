@@ -1,0 +1,5 @@
+we have an employees table (id,name,departmentid , saving) add a department table , department id and department name 
+question 1 : retrive the total salary payout  for each department id
+q2 : retrive which department total salary paout more than 1 lakh
+q3 : looking only at senior employees (where condition , which department has an average salary  over 80k)
+q4 : retrive the data as of the previous one but sort it from the heighest to lowest salary
