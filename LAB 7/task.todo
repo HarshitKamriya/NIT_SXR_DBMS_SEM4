@@ -1,0 +1,10 @@
+Que 1 : create a student table (sid,Marks ,branch)
+que 2 : retriver student (sid) who scored highest Marks
+Que 3 : Retrive students (sid) who scored second highest Marks
+Que 4 : Create table Emp (name,gender,salary,dname)
+        a : Names of dept which the Avg salary more that the Avg salary of the company
+        b : Departments in which the average salary of male employee is more than avg salary of all the male employee of th company.
+
+Que 5 : create supplier(sid,sname,rating) and parts(pid,pname,color) table, catalog(sid,pid,cost)
+Que 6 : retriver sid of supplier supplied some red parts
+Que 7 : Emp(Eid,Ename,salary,Dept) , retriver Eid's whose salary is greater than any employee salary of dept 5
