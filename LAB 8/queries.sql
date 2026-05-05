@@ -123,3 +123,31 @@ VALUES
 (6,4,500),
 (7,3,600),
 (7,4,6000);
+
+
+select s.sid
+from supplier as s
+where rating > 10 and not exists(select pid from parts p where color = "red" and not exists (select c.sid from catalog c where c.sid = s.sid and c.pid = p.pid));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
