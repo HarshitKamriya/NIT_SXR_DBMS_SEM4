@@ -131,6 +131,38 @@ where rating > 10 and not exists(select pid from parts p where color = "red" and
 
 
 
+-- question 6 : query on compansion with null (IS | IS NOT clause)
+-- to do this query we need to insert some ids with null values
+INSERT INTO supplier
+(sid)
+VALUES
+(8),
+(9);
+
+
+
+select * 
+from supplier 
+where sname is not null;
+
+select * 
+from supplier 
+where sname is  null;
+
+
+
+-- question 7 : Query on regular expression (LIKE | NOT LIKE)
+
+
+select * 
+from supplier
+where sname like 'H%';
+
+
+select * 
+from supplier
+where sname not like 'H%';
+
 
 
 
