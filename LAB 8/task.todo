@@ -1,0 +1,7 @@
+question 1 : Sid's of supplier supplied some red parts
+question 2 : parts which are not supplied by any supplier
+question 3 : sid's of supplier supplied proper subset of parts.(EXISTS WITH EXPECT)
+question 4 : sid's of supplier supplied all parts (Both via nested NOT EXIST and NOT EXIST WITH EXCEPT) -> both ways
+question 5 : retrive sid's of the supplier whose rating>10 and suplied every red part 
+question 6 : query on compansion with null (IS | IS NOT clause)
+question 7 : Query on regular expression (LIKE | NOT LIKE)
